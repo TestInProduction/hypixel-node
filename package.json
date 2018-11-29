@@ -1,0 +1,17 @@
+{
+  "name": "hypixel-node",
+  "version": "1.1.0",
+  "description": "A JS wrapper for the Hypixel and Mojang API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zimor",
+  "license": "ISC",
+  "dependencies": {
+    "phin": "^2.9.0"
+  }
+}
