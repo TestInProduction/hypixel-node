@@ -1,6 +1,6 @@
 {
   "name": "hypixel-node",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A JS wrapper for the Hypixel and Mojang API",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/html-programmer/hypixel-node"
+    "url": "git://github.com/TestInProduction/hypixel-node"
   },
   "author": "Zimor",
   "license": "MIT",
