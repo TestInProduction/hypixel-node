@@ -1,6 +1,6 @@
 const playerMethods = {
     getLevel: function() {
-        return this.networkExp < 0 ? 1 : Math.floor(1 + (-(10000 - 0.5 * 2500) / 2500) + Math.sqrt((Math.pow(-(10000 - 0.5 * 2500) / 2500), 2) + (2 / 2500) * this.networkExp))
+        return isNaN(this.networkExp) ? 1 : Number((Math.sqrt(this.networkExp + 15312.5) - 125 / Math.sqrt(2)) / (25 * Math.sqrt(2))).toFixed()
     },
 
     isOnline: function() {
