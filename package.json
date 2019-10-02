@@ -1,6 +1,6 @@
 {
   "name": "hypixel-node",
-  "version": "1.1.2",
+  "version": "1.2.1",
   "description": "A JS wrapper for the Hypixel and Mojang API",
   "main": "index.js",
   "directories": {
